@@ -16,7 +16,6 @@
   color: var(--font-color);
   background-color: #ffffff;
   border: 1px solid var(--border-color);
-  cursor: text;
 
   line-height: var(--inline-tag-height);
 }
@@ -36,7 +35,6 @@
 
   border-radius: 12px;
   background-color: var(--background-blue);
-  cursor: default;
 }
 
 .emails-editor__email--wrong {

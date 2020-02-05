@@ -4,9 +4,10 @@
   "description": "Miro Code Challenge",
   "author": "Benjamin T <vtambourine@ya.ru>",
   "scripts": {
+    "clean": "rm dist/*",
     "start": "parcel examples/index.html",
     "build": "parcel build examples/index.html",
-    "publish": "parcel build --public-url /miro examples/index.html && git checkout gh-pages && cp dist/* . && git commit -am Publish && git push && git checkout - && rm examples.*"
+    "publish": "npm run clean && parcel build --public-url /miro examples/index.html && git checkout gh-pages && cp dist/* . && git commit -am Publish && git push && git checkout - && rm examples.*"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",

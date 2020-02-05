@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./email-editor.css":"yJyY"}],"fUdq":[function(require,module,exports) {
 "use strict";var e=require("./email-editor");new e.EmailsEditor(document.getElementById("email-editor-miro"),["alona@miro.com"]),new e.EmailsEditor(document.getElementById("email-editor-cats"),["rumpleteazer@jellicles.com","old.deuteronomy@jellicles.com","rum.tum.tugger@jellicles.com","gus@jellicles","alonzo"]);
 },{"./email-editor":"t3VO"}]},{},["fUdq"], null)
-//# sourceMappingURL=/src.f88f94bd.js.map
+//# sourceMappingURL=/miro/src.f88f94bd.js.map

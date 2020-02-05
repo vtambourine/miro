@@ -1,4 +1,4 @@
-import { EmailsEditor } from "./email-editor";
+import { EmailsEditor } from "../src/email-editor";
 
 new EmailsEditor(document.getElementById("email-editor-miro"), [
   "alona@miro.com",

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel examples/index.html",
     "build": "parcel build examples/index.html",
-    "publish": "parcel build --public-url /miro examples/index.html && git checkout gh-pages && cp dist/* . && git commit -am Publish && git push && git checkout -"
+    "publish": "parcel build --public-url /miro examples/index.html && git checkout gh-pages && cp dist/* . && git commit -am Publish && git push && git checkout - && rm examples.*"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",

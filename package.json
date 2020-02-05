@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel examples/index.html",
     "build": "parcel build examples/index.html",
-    "publish": "npm run build && git checkout gh-pages && cp dist/* . && git commit -am Publish && git push && git checkout -"
+    "publish": "parcel build --public-url /miro examples/index.html && git checkout gh-pages && cp dist/* . && git commit -am Publish && git push && git checkout -"
   },
   "devDependencies": {
     "jest": "^24.9.0",
